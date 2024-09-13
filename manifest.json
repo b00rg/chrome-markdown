@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Markdown Copy",
+  "version": "1.0",
+  "description": "Download selected content as a Markdown file.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

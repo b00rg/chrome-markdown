@@ -1,0 +1,12 @@
+.my-button {
+    background-color: blue; /* Button background color */
+    color: white;           /* Button text color */
+    border: none;           /* Remove border */
+    padding: 10px 20px;     /* Adjust padding */
+    border-radius: 5px;     /* Rounded corners */
+    cursor: pointer;        /* Pointer cursor on hover */
+}
+
+.my-button:hover {
+    background-color: darkblue; /* Change background on hover */
+}

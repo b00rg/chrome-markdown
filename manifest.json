@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Download as Markdown",
+  "name": "Markdown Copy",
   "version": "1.0",
   "description": "Download selected content as a Markdown file.",
   "permissions": [
@@ -11,6 +11,7 @@
   },
   "action": {
     "default_popup": "popup.html"
+    "default_icon": "icon.png"
   },
   "content_scripts": [
     {

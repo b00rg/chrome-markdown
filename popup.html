@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download as Markdown</title>
+    <style>
+        .my-button {
+            background-color: blue; 
+            color: white;        
+            border: none;          
+            padding: 10px 20px;    
+            border-radius: 5px;    
+            cursor: pointer;        
+        }
+
+        .my-button:hover {
+            background-color: darkblue; /* Change background on hover */
+        }
+    </style>
     <script src="popup.js" defer></script>
 </head>
 <body>
-    <button id="download-btn">Download as Markdown</button>
+    <button id="download-btn" class="my-button">Download as Markdown</button>
 </body>
 </html>
-

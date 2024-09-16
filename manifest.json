@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Markdown Copy",
   "version": "1.0",
-  "description": "Download selected content as a Markdown file.",
+  "description": "Copy selected content as Markdown",
   "permissions": ["activeTab"],
   "background": {
     "service_worker": "background.js"

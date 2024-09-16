@@ -12,8 +12,13 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 ${document.querySelector('paragraph') ? document.querySelector('paragraph').innerText : 'No Paragraph'}
 > ${document.querySelector('blockquote') ? document.querySelector('blockquote').innerText : 'No Blockquote'}
 ``` ${document.querySelector('code') ? document.querySelector('code').innerText : 'No Code'} ```
-
-        `;
+--- ${document.querySelector('hr') ? document.querySelector('hr').innerText : 'No Horizontal Break'}
+* ${document.querySelector('li') ? document.querySelector('li').innerText : 'No List'}
+* ${document.querySelector('q') ? document.querySelector('q').innerText : 'No Quote'} *
+~~${document.querySelector('s') ? document.querySelector('s').innerText : 'No Strikethrough'} ~~
+``` ${document.querySelector('script') ? document.querySelector('script').innerText : 'No Script'} ```
+** ${document.querySelector('strong') ? document.querySelector('strong').innerText : 'No Strong'} ** `
+            ;
         sendResponse({ content });
     }
 });

@@ -3,7 +3,10 @@
   "name": "Markdown Copy",
   "version": "1.0",
   "description": "Copy selected content as Markdown",
-  "permissions": ["activeTab"],
+  "permissions": [    
+    "tabs",
+    "scripting",
+    "clipboardWrite"],
   "background": {
     "service_worker": "background.js"
   },

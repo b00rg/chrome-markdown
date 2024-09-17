@@ -6,7 +6,8 @@
   "permissions": [    
     "tabs",
     "scripting",
-    "clipboardWrite"],
+    "clipboardWrite"
+  ],
   "background": {
     "service_worker": "background.js"
   },
